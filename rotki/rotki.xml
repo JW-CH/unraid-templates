@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<Container version="2">
+    <Name>rotki</Name>
+    <Repository>rotki/rotki</Repository>
+    <Registry>https://hub.docker.com/r/rotki/rotki/</Registry>
+    <Network>bridge</Network>
+    <MyIP/>
+    <Shell>sh</Shell>
+    <Privileged>false</Privileged>
+    <Support/>
+    <Project>https://github.com/rotki/rotki</Project>
+    <Overview>Rotki is an open source portfolio tracking, analytics, accounting, and tax reporting tool that protects your privacy. The mission of rotki is to bring transparency into the crypto and financial sectors through the use of open source. Most importantly, unlike virtually every other competing service which consists of closed source SaaS onto which you are forced to hand over all your financial data, with rotki your data is stored encrypted locally in your computer. It enables you to take ownership of your financial data!</Overview>
+    <Category>Crypto: Tools:</Category>
+    <WebUI>https://[IP]:[PORT:8282]</WebUI>
+    <TemplateURL/>
+    <Icon>https://raw.githubusercontent.com/rotki/rotki/develop/frontend/app/public/assets/images/rotkehlchen_no_text.png</Icon>
+    <ExtraParams/>
+    <PostArgs/>
+    <CPUset/>
+    <DateInstalled>1716279085</DateInstalled>
+    <DonateText/>
+    <DonateLink/>
+    <Requires/>
+    <Config Name="Port" Target="80" Default="" Mode="tcp" Description="" Type="Port" Display="always" Required="true" Mask="false">8282</Config>
+    <Config Name="Data" Target="/data" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rotki/data</Config>
+    <Config Name="Logs" Target="/logs" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rotki/logs</Config>
+    <Config Name="Config" Target="/config" Default="" Mode="rw" Description="" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/rotki/config</Config>
+    <Config Name="Loglevel" Target="LOGLEVEL" Default="debug|info|warn|error|critical" Mode="" Description="" Type="Variable" Display="advanced-hide" Required="false" Mask="false">debug</Config>
+</Container>
