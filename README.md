@@ -1,2 +1,2 @@
 # unraid-templates
-My Unraid templates
+Container templates for the Unraid community store
