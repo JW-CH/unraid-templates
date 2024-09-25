@@ -8,11 +8,11 @@
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
   <Support/>
-  <Project/>
+  <Project>https://github.com/immichFrame/ImmichFrame</Project>
   <Overview>immichFrame is a digital photo frame application that interfaces with your immich server.&#xD;
 &#xD;
 This project is not affiliated with immich!</Overview>
-  <Category>Photos:</Category>
+  <Category/>
   <Beta>True</Beta>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
