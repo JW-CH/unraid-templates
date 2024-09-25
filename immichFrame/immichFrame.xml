@@ -12,7 +12,8 @@
   <Overview>immichFrame is a digital photo frame application that interfaces with your immich server.&#xD;
 &#xD;
 This project is not affiliated with immich!</Overview>
-  <Category/>
+  <Category>Photos:</Category>
+  <Beta>true</Beta>
   <WebUI>http://[IP]:[PORT:8080]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/immichFrame/ImmichFrame/7b208670d73982333de2c6c1f43b3c96ac6da983/design/AppIcon.png</Icon>
