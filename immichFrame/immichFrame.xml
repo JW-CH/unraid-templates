@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>immichFrame</Name>
+  <Repository>ghcr.io/immichframe/immichframe:main</Repository>
+  <Registry>https://github.com/immichFrame/ImmichFrame/pkgs/container/immichframe</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support/>
+  <Project/>
+  <Overview>immichFrame is a digital photo frame application that interfaces with your immich server.&#xD;
+&#xD;
+This project is not affiliated with immich!</Overview>
+  <Category/>
+  <WebUI>http://[IP]:[PORT:8080]</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/immichFrame/ImmichFrame/7b208670d73982333de2c6c1f43b3c96ac6da983/design/AppIcon.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1727289823</DateInstalled>
+  <DonateText/>
+  <DonateLink/>
+  <Requires>This container requires an configuration to access your instance of immich. See here: https://github.com/immichFrame/ImmichFrame#settingsjson</Requires>
+  <Config Name="WebUI" Target="8080" Default="" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
+  <Config Name="immichFrame Config" Target="/app/Config" Default="" Mode="rw" Description="immichFrame Config-Folder, should contain a Settings.json,&#13;&#10;more informations here: https://github.com/immichFrame/ImmichFrame#settingsjson" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/immichFrame/config</Config>
+</Container>
