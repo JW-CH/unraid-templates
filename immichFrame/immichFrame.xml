@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <Container version="2">
   <Name>immichFrame</Name>
-  <Repository>ghcr.io/immichframe/immichframe:main</Repository>
+  <Repository>ghcr.io/immichframe/immichframe:latest</Repository>
   <Registry>https://github.com/immichFrame/ImmichFrame/pkgs/container/immichframe</Registry>
   <Network>bridge</Network>
   <MyIP/>
