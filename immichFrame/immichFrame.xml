@@ -25,5 +25,7 @@ This project is not affiliated with immich!</Overview>
   <DonateLink/>
   <Requires>This container requires an configuration to access your instance of immich. See here: https://github.com/immichFrame/ImmichFrame#settingsjson</Requires>
   <Config Name="WebUI" Target="8080" Default="" Mode="tcp" Description="WebUI Port" Type="Port" Display="always" Required="true" Mask="false">8080</Config>
-  <Config Name="immichFrame Config" Target="/app/Config" Default="" Mode="rw" Description="immichFrame Config-Folder, should contain a Settings.json,&#13;&#10;more informations here: https://github.com/immichFrame/ImmichFrame#settingsjson" Type="Path" Display="always" Required="true" Mask="false">/mnt/user/appdata/immichFrame/config</Config>
+  <Config Name="immichFrame Config" Target="/app/Config" Default="" Mode="rw" Description="LEAVE EMPTY IF YOU ARE USING THE OTHER VARIABLES - &#13;&#10;immichFrame Config-Folder, should contain a Settings.json,&#13;&#10;more informations here: https://github.com/immichFrame/ImmichFrame#settingsjson" Type="Path" Display="always" Required="false" Mask="false"/>
+  <Config Name="ImmichServerUrl" Target="ImmichServerUrl" Default="" Mode="" Description="The URL of your Immich server e.g. https://photos.yourdomain.com or http://192.168.0.100:2283" Type="Variable" Display="always" Required="false" Mask="false">https://photos.yourdomain.com</Config>
+  <Config Name="ApiKey" Target="ApiKey" Default="" Mode="" Description="Your immich API-Key (https://immich.app/docs/features/command-line-interface/#obtain-the-api-key)" Type="Variable" Display="always" Required="false" Mask="false">ApiKey</Config>
 </Container>
